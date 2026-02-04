@@ -1,0 +1,19 @@
+{
+  "name": "energy-aggregator",
+  "version": "1.0.0",
+  "description": "Client application to fetch and aggregate energy grid telemetry",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
